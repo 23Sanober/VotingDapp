@@ -1,3 +1,4 @@
+
 const express = require('express');
 const axios = require('axios'); 
 const mysql = require('mysql2');
@@ -18,11 +19,10 @@ const iv = crypto.randomBytes(16);
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
-require('dotenv').config();
-// Pinata API credentials
-const PINATA_API_KEY = process.env.PINATA_API_KEY;
-const PINATA_SECRET_API_KEY = process.env.PINATA_SECRET_API_KEY;
 
+// Pinata API credentials 
+const PINATA_API_KEY = '68e11c8a7d4307d3884b';
+const PINATA_SECRET_API_KEY = '441db05aa8de52b9c0271bcf84ab0548a19644cda57477b4089fa7c25d1e8235';
 
 
 const encrypt = (text) => {
