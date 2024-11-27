@@ -1,4 +1,3 @@
-
 const express = require('express');
 const axios = require('axios'); 
 const mysql = require('mysql2');
@@ -18,7 +17,6 @@ const iv = crypto.randomBytes(16);
 
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
-
 
 // Pinata API credentials 
 const PINATA_API_KEY = '68e11c8a7d4307d3884b';
