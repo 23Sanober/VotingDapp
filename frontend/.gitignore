@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# macOS system files
+.DS_Store
+
 # testing
 /coverage
 
