@@ -19,8 +19,8 @@ const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
 // Pinata API credentials 
-const PINATA_API_KEY = '68e11c8a7d4307d3884b';
-const PINATA_SECRET_API_KEY = '441db05aa8de52b9c0271bcf84ab0548a19644cda57477b4089fa7c25d1e8235';
+const PINATA_API_KEY = '';
+const PINATA_SECRET_API_KEY = '';
 
 
 const encrypt = (text) => {
